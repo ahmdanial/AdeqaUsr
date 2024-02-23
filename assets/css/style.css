@@ -1,0 +1,54 @@
+/* Add styling for the container */
+
+
+/* Style the form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%; /* Adjust as needed to leave space between columns */
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Add styling for the hidden forms */
+#confirmation_form,
+#screening_form {
+    display: none;
+}
